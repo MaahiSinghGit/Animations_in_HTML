@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+    background-color: #0000ff;
+    /* transform: rotate(120deg); */
+    /* transform: scale(1.5); */
+    /* transform: translate(100px,100px); */
+    transition: 1s ease-in-out ;
+}
+div:hover{
+   transform: rotate(45deg);
+    height: 200px;
+    width: 250px;
+}
+.new{
+    height: 100px;
+    width: 100px;
+    top: 250px;
+    left: 100px;
+    background-color: blueviolet;
+    transition: 1s steps(100,end);
+}
+.new:hover{
+    transform: scale(1.5) translate(150px);
+    
+}
