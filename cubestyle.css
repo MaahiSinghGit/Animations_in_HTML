@@ -25,5 +25,13 @@
 
 .two{
     background-color: red;
-    transform: rotateY(90deg);
+    transform: rotateY(90deg) translateX(-100px) translateZ(-100px)
+}
+.three{
+    background-color: rgb(27, 235, 169);
+    transform: rotateY(335deg) translateX(-100px) translateZ(100px) translateY(-100px);
+}
+.four{
+    background-color: chartreuse;
+    transform: rotateY(90deg) translateX(-100px) translateZ(100px);
 }
